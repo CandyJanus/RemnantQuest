@@ -16,6 +16,7 @@ import com.fs.starfarer.api.impl.campaign.missions.hub.HubMissionWithBarEvent;
 import com.fs.starfarer.api.ui.SectorMapAPI;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
+import com.fs.starfarer.api.impl.campaign.ids.MemFlags;
 
 import java.awt.*;
 import java.util.List;
@@ -28,8 +29,8 @@ public class Stage1_RemnantQuest_FleetSpawner {
             null,
             Factions.REMNANTS,
             null,
-            PATROL_MEDIUM,
-            150f, // combatPts
+            FleetTypes.TASK_FORCE,
+            250f, // combatPts
             0f, // freighterPts
             0f, // tankerPts
             0f, // transportPts
